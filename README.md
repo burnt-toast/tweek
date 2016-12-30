@@ -9,13 +9,13 @@ Moving this code over from the github repo that was used during the hackathon. H
 ## Screenshots:
 
 Home Page
-![alt tag](https://github.com/burnt-toast/tweek/tree/master/screenshots/HomePage1.PNG)
+![Home Page](https://raw.githubusercontent.com/burnt-toast/tweek/master/screenshots/HomePage1.PNG =850x550)
 
 Game
-![alt tag](https://github.com/burnt-toast/tweek/tree/master/screenshots/gamev1.PNG)
+![Game](https://raw.githubusercontent.com/burnt-toast/tweek/master/screenshots/gamev1.PNG =850x550)
 
 Results
-![alt tag](https://github.com/burnt-toast/tweek/tree/master/screenshots/reviewv1.PNG)
+![Results](https://raw.githubusercontent.com/burnt-toast/tweek/master/screenshots/reviewv1.PNG =850x550)
 
 Top Scores
-![alt tag](https://github.com/burnt-toast/tweek/tree/master/screenshots/TopScores.PNG)
+![Top Scores](https://raw.githubusercontent.com/burnt-toast/tweek/master/screenshots/TopScores.PNG =850x550)
