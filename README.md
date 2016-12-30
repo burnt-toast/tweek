@@ -5,3 +5,17 @@ Tweek is a online single player game that integrates with the twitch API. The ma
 
 ## Status
 Moving this code over from the github repo that was used during the hackathon. Haven't run it since, so it may not work correctly 
+
+## Screenshots:
+
+Home Page
+![alt tag](https://github.com/burnt-toast/tweek/tree/master/screenshots/HomePage1.PNG)
+
+Game
+![alt tag](https://github.com/burnt-toast/tweek/tree/master/screenshots/gamev1.PNG)
+
+Results
+![alt tag](https://github.com/burnt-toast/tweek/tree/master/screenshots/reviewv1.PNG)
+
+Top Scores
+![alt tag](https://github.com/burnt-toast/tweek/tree/master/screenshots/TopScores.PNG)
