@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <scoring [questionsAnswered]='currentQuestion'
+                 [maxQuestions]='maxQuestions'></scoring>
+    </div>
+    <div class="row">
+        <div>
+            <plugin [channelUrl]='currentChannel'></plugin>
+        </div>
+        <div>
+            <question (answerResultsClicked)="answerRecieved($event)"
+                      (questionPublished)="questionRecieved($event)" ></question>
+        </div>
+    </div>
+</div>

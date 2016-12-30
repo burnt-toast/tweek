@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <base href="/">
+  <title>Tweek 2016</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://bootswatch.com/cerulean/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+  <base href="/">
+  <!-- 1. Load libraries -->
+  <!-- Polyfill(s) for older browsers -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.1/es6-shim.min.js"></script>
+  <script src="zone.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reflect-metadata/0.1.3/Reflect.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.27/system.src.js"></script>
+
+  <!-- 2. Configure SystemJS -->
+  <!--<script src="jspm_packages/system.js"></script>-->
+  <!--<script src="config.js"></script>-->
+
+
+  <script src="systemjs.config.js"></script>
+</head>
+<!-- 3. Display the application -->
+
+<body>
+  <tweek>Loading...</tweek>
+
+  <script>
+    System.import('app').catch(function(err){ console.error(err);  });
+  </script>
+
+<!--<script src="app.js"></script>-->
+
+</body>
+
+</html>

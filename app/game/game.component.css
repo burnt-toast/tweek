@@ -1,0 +1,29 @@
+
+#mainContainer {
+  width: 640px;
+  height:360px;
+  background-color: black;
+}
+
+.revealContainer {
+  width: 320px;height: 180px;
+  background-color: #0099ff;
+  border: 1px solid black;
+  display: table-cell;
+}
+
+.topRightQuadrant {
+  float:right;
+}
+
+.topLeftQuadrant {
+  float:left;
+}
+
+.bottomRightQuadrant {
+  float:right;
+}
+
+.bottomLeftQuadrant {
+  float: left;
+}

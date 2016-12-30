@@ -1,0 +1,31 @@
+
+<div class="container">
+
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <div [ngStyle]="{'background-image': 'url(' + question.image + ')'}" id="mainContainer" >
+      <div>
+     <div  class="revealContainer topLeftQuadrant" style="opacity:1"></div>
+     <div   class="revealContainer topRightQuadrant" style="opacity:1"></div>
+   </div>
+   <div>
+     <div  class="revealContainer bottomLeftQuadrant" style="opacity:1"></div>
+     <div  class="revealContainer bottomRightQuadrant" style="opacity:1"></div>
+   </div>
+    </div>
+  </div>
+  <div class="col-md-3"></div>
+</div>
+<div class="row">
+  <div class="col-md-5"></div>
+  <div class="col-md-2 ">
+    <div  class="btn-group-vertical" role="group">
+      <button *ngFor="#choice of question.choices"  style="width:250px"[disabled]="blockGuess" (click)="verifyAnswer(choice)" class="btn btn-default"> {{choice.option}} </button>
+      <div [hidden]="!incorrect" class="alert alert-danger" role="alert">Incorrect! </div>
+    </div>
+  </div>
+  <div class="col-md-5"></div>
+</div>
+
+</div>

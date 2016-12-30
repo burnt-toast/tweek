@@ -1,0 +1,42 @@
+[
+    {
+        "name": "user1",
+        "score": 99
+    },
+    {
+        "name": "user2",
+        "score": 98
+    },
+    {
+        "name": "user3",
+        "score": 97
+    },
+    {
+        "name": "user4",
+        "score": 96
+    },
+    {
+        "name": "user5",
+        "score": 95
+    },
+    {
+        "name": "user6",
+        "score": 94
+    },
+    {
+        "name": "user7",
+        "score": 93
+    },
+    {
+        "name": "user8",
+        "score": 92
+    },
+    {
+        "name": "user9",
+        "score": 91
+    },
+    {
+        "name": "user10",
+        "score": 90
+    }
+]

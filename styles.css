@@ -1,0 +1,20 @@
+.tweek-header {
+    position: relative;
+    width: 100%;
+    min-height: 930px;
+    text-align: center;
+    background-image: url(../assets/tweek_pic.png);
+    background-color: aliceblue;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tweek-header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}

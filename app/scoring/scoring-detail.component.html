@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Your Score : {{ totalScoreMessage }}</div>
+        <div class="panel-body">
+
+            <table class="table table-responsive">
+                <thead>
+                    <td>Question</td>
+                    <td>Your Answer</td>
+                    <td>Correct Answer</td>
+                </thead>
+                <tr [ngClass]="{'text-danger' : !result.answeredCorrect}" *ngFor="let result of ar">
+                    <td>{{result.question.text}}</td>
+                    <td>{{result.yourAnswer}}</td>
+                    <td>{{result.question.getAnswer()}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="panel-footer">
+            <a class="btn btn-default pull-left" (click)='onBack()' style="width:150px">
+                <i class="glyphicon glyphicon-chevron-left"></i> Back
+            </a>
+            
+            <a class="btn btn-default pull-right" (click)='submitScore()' style="width:150px">
+                Submit Score
+            </a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>

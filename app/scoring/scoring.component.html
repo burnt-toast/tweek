@@ -1,0 +1,14 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="span12">
+            <ul>
+                <li *ngFor="let q of questions; let i = index">
+                    <img [ngClass]="{'tweek-complete': questions[i]}" src="/assets/tweek_pic.png" [style.width.px]='width' [style.height.px]='heigth'
+                    />
+                </li>
+                <li> {{ questionsAnswered }} </li>
+            </ul>
+        </div>
+
+    </div>
+</div>

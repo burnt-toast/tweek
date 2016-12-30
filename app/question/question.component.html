@@ -1,0 +1,11 @@
+<div class="container">
+    <h4>{{ question.text }}</h4>
+
+    <div *ngFor="let choice of question.choices" >
+        <label>
+            <input type="radio" name="choice" (click)="selectedAnswer = choice"> {{choice}}
+        </label>
+    </div>
+    <button type="submit" class="btn btn-default" (click)="submitAnswer()">submit</button>
+    <h4>{{ message }}</h4>
+</div>
